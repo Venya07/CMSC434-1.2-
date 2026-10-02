@@ -81,7 +81,6 @@ function setupTodo() {
         }
     };
 }
-// Tab 3: Create pie chart
 
 const canvas = document.getElementById("pieChart");
 const ctx = canvas.getContext("2d");
@@ -110,9 +109,6 @@ for (let i = 0; i < values.length; i++) {
 
     startAngle += sliceAngle;
 }
-
-
-// Tab 4: Profile notification
 
 const profileImage = document.getElementById("profileImage");
 const profileNotification = document.getElementById("profileNotification");

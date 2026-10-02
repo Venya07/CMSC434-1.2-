@@ -3,7 +3,6 @@ body {
     font-family: "Times New Roman", serif;
 }
 
-/* Frame dimensions from the linked HTML starter example. */
 #app {
     width: 640px;
     height: 960px;
@@ -171,7 +170,6 @@ nav button:focus-visible {
     border: none;
     background: transparent;
     font-size: 24pt;
-/* Tab 3: Colors */
 
 .color-line-one {
     color: yellow;
@@ -192,8 +190,6 @@ nav button:focus-visible {
     margin: 20px auto;
 }
 
-
-/* Tab 4: Profile */
 
 .profile-content {
     text-align: center;
