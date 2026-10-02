@@ -171,5 +171,59 @@ nav button:focus-visible {
     border: none;
     background: transparent;
     font-size: 24pt;
+/* Tab 3: Colors */
+
+.color-line-one {
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.color-line-two {
+    color: purple;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#pieChart {
+    display: block;
+    margin: 20px auto;
+}
+
+
+/* Tab 4: Profile */
+
+.profile-content {
+    text-align: center;
+}
+
+#profileImage {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.profile-name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.notification button {
+    padding: 8px 16px;
     cursor: pointer;
 }

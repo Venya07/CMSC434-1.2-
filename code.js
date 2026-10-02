@@ -81,3 +81,47 @@ function setupTodo() {
         }
     };
 }
+// Tab 3: Create pie chart
+
+const canvas = document.getElementById("pieChart");
+const ctx = canvas.getContext("2d");
+
+const colors = ["red", "blue", "lime", "orange", "magenta", "cyan"];
+const values = [20, 15, 25, 10, 15, 15];
+
+let startAngle = 0;
+
+for (let i = 0; i < values.length; i++) {
+    const sliceAngle = (values[i] / 100) * 2 * Math.PI;
+
+    ctx.beginPath();
+    ctx.moveTo(150, 150);
+    ctx.arc(
+        150,
+        150,
+        120,
+        startAngle,
+        startAngle + sliceAngle
+    );
+    ctx.closePath();
+
+    ctx.fillStyle = colors[i];
+    ctx.fill();
+
+    startAngle += sliceAngle;
+}
+
+
+// Tab 4: Profile notification
+
+const profileImage = document.getElementById("profileImage");
+const profileNotification = document.getElementById("profileNotification");
+const closeNotification = document.getElementById("closeNotification");
+
+profileImage.addEventListener("click", function () {
+    profileNotification.hidden = false;
+});
+
+closeNotification.addEventListener("click", function () {
+    profileNotification.hidden = true;
+});
