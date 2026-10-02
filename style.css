@@ -82,3 +82,94 @@ nav button:focus-visible {
     outline: 2px solid white;
     outline-offset: -3px;
 }
+
+/* ---- Choices tab ---- */
+#choices .label {
+    font-size: 20pt;
+    margin: 0;
+    padding-top: 12px;
+}
+
+.radioRow {
+    display: block;
+    font-size: 20pt;
+    padding: 4px 0;
+}
+
+.radioRow input {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+#camera2 {
+    font-size: 20pt;
+    padding: 4px;
+}
+
+#printWrap {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#printChoicesButton {
+    width: 280px;
+    font-size: 20pt;
+    padding: 8px;
+}
+
+#choicesOutput {
+    font-size: 20pt;
+    text-align: center;
+}
+
+/* ---- ToDo tab ---- */
+#todo {
+    overflow-y: auto;
+}
+
+#todoEntry {
+    padding-bottom: 12px;
+}
+
+#todoInput {
+    width: 440px;
+    font-size: 22pt;
+}
+
+#todoEntry button {
+    font-size: 20pt;
+    margin-left: 6px;
+}
+
+#todoList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#todoList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    font-size: 22pt;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#todoList li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#todoList li.checked {
+    background-color: #888;
+    text-decoration: line-through;
+}
+
+.removeItem {
+    border: none;
+    background: transparent;
+    font-size: 24pt;
+    cursor: pointer;
+}

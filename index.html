@@ -33,8 +33,32 @@
         </div>
         <div id="colors" class="screen" hidden><h1>Colors</h1></div>
         <div id="profile" class="screen" hidden><h1>Profile</h1></div>
-        <div id="choices" class="screen" hidden><h1>Choices</h1></div>
-        <div id="todo" class="screen" hidden><h1>ToDo</h1></div>
+        <div id="choices" class="screen" hidden>
+            <h1>-Choices Screen-</h1>
+
+            <p class="label">Camera Type #1:</p>
+            <label class="radioRow"><input type="radio" name="camera1" value="dSLR" checked> dSLR</label>
+            <label class="radioRow"><input type="radio" name="camera1" value="Mirrorless"> Mirrorless</label>
+
+            <p class="label">Camera Type #2:</p>
+            <select id="camera2">
+                <option value="dSLR">dSLR</option>
+                <option value="Mirrorless">Mirrorless</option>
+            </select>
+
+            <div id="printWrap">
+                <button type="button" id="printChoicesButton">Print something based on above choices...</button>
+            </div>
+            <p id="choicesOutput"></p>
+        </div>
+        <div id="todo" class="screen" hidden>
+            <h1>-To Do List-</h1>
+            <div id="todoEntry">
+                <input type="text" id="todoInput" placeholder="New entry...">
+                <button type="button" id="todoAddButton">Add</button>
+            </div>
+            <ul id="todoList"></ul>
+        </div>
         <nav>
             <button type="button" id="textButton"><img src="icons/text.svg" alt="">Text</button>
             <button type="button" id="lrButton"><img src="icons/lr.svg" alt="">LR</button>
