@@ -4,8 +4,8 @@ body {
 }
 
 #app {
-    width: 640px;
-    height: 960px;
+    width: 600px;
+    height: 1000px;
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -13,7 +13,7 @@ body {
 }
 
 .screen {
-    height: 865px;
+    height: 900px;
     position: relative;
 }
 
@@ -35,12 +35,12 @@ h1 {
 #text p {
     font-size: 12pt;
     margin: 0;
-    height: 90px;
+    height: 100px;
 }
 
 #downHere {
     position: absolute;
-    bottom: 26px;
+    bottom: 25px;
     right: 10px;
     margin: 0;
     font-size: 12pt;
@@ -50,7 +50,7 @@ nav {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 95px;
+    height: 100px;
     display: flex;
     background-color: #071580;
 }
@@ -62,14 +62,14 @@ nav button {
     background-color: transparent;
     color: yellow;
     font-family: Arial, sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     cursor: pointer;
 }
 
 nav img {
     display: block;
-    width: 64px;
-    height: 64px;
+    width: 70px;
+    height: 70px;
     margin: 0 auto;
 }
 
@@ -96,8 +96,8 @@ nav button:focus-visible {
 }
 
 .radioRow input {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
 }
 
@@ -114,7 +114,7 @@ nav button:focus-visible {
 #printChoicesButton {
     width: 280px;
     font-size: 20pt;
-    padding: 8px;
+    padding: 10px;
 }
 
 #choicesOutput {
@@ -128,17 +128,17 @@ nav button:focus-visible {
 }
 
 #todoEntry {
-    padding-bottom: 12px;
+    padding-bottom: 10px;
 }
 
 #todoInput {
     width: 440px;
-    font-size: 22pt;
+    font-size: 20pt;
 }
 
 #todoEntry button {
     font-size: 20pt;
-    margin-left: 6px;
+    margin-left: 5px;
 }
 
 #todoList {
@@ -151,8 +151,8 @@ nav button:focus-visible {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 20px;
-    font-size: 22pt;
+    padding: 15px 20px;
+    font-size: 20pt;
     background-color: #eee;
     cursor: pointer;
 }
@@ -169,7 +169,7 @@ nav button:focus-visible {
 .removeItem {
     border: none;
     background: transparent;
-    font-size: 24pt;
+    font-size: 25pt;
 }
 
 .color-line-one {
@@ -221,6 +221,6 @@ nav button:focus-visible {
 }
 
 .notification button {
-    padding: 8px 16px;
+    padding: 10px 20px;
     cursor: pointer;
 }
