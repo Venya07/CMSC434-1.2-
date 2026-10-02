@@ -27,21 +27,77 @@
             <p>Please note that this font size is too small to read easily on this device for many...</p>
             <p>Please note that this font size is too small to read easily on this device for many...</p>
         </div>
+
         <div id="lr" class="screen" hidden>
             <h1>-Text in Lower Right-</h1>
             <p id="downHere">Down Here</p>
         </div>
-        <div id="colors" class="screen" hidden><h1>Colors</h1></div>
-        <div id="profile" class="screen" hidden><h1>Profile</h1></div>
-        <div id="choices" class="screen" hidden><h1>Choices</h1></div>
-        <div id="todo" class="screen" hidden><h1>ToDo</h1></div>
+
+        <div id="colors" class="screen" hidden>
+            <h1>Colors</h1>
+
+            <div class="color-line-one">
+                Yellow text on black background
+            </div>
+
+            <div class="color-line-two">
+                Purple text on yellow background
+            </div>
+
+            <canvas id="pieChart" width="300" height="300"></canvas>
+        </div>
+
+        <div id="profile" class="screen" hidden>
+            <h1>Profile</h1>
+
+            <div class="profile-content">
+                <img
+                    id="profileImage"
+                    src="https://www.cs.umd.edu/class/fall2026/cmsc434/P1_2/SmileyFace.png"
+                    alt="Smiley Face"
+                >
+
+                <p class="profile-name">Your Name</p>
+            </div>
+
+            <div id="profileNotification" class="notification" hidden>
+                <p>Hello! You tapped the profile image.</p>
+                <button type="button" id="closeNotification">Close</button>
+            </div>
+        </div>
+
+        <div id="choices" class="screen" hidden>
+            <h1>Choices</h1>
+        </div>
+
+        <div id="todo" class="screen" hidden>
+            <h1>ToDo</h1>
+        </div>
+
         <nav>
-            <button type="button" id="textButton"><img src="icons/text.svg" alt="">Text</button>
-            <button type="button" id="lrButton"><img src="icons/lr.svg" alt="">LR</button>
-            <button type="button" id="colorsButton"><img src="icons/colors.svg" alt="">Colors</button>
-            <button type="button" id="profileButton"><img src="icons/profile.svg" alt="">Profile</button>
-            <button type="button" id="choicesButton"><img src="icons/choices.svg" alt="">Choices</button>
-            <button type="button" id="todoButton"><img src="icons/todo.svg" alt="">ToDo</button>
+            <button type="button" id="textButton">
+                <img src="icons/text.svg" alt="">Text
+            </button>
+
+            <button type="button" id="lrButton">
+                <img src="icons/lr.svg" alt="">LR
+            </button>
+
+            <button type="button" id="colorsButton">
+                <img src="icons/colors.svg" alt="">Colors
+            </button>
+
+            <button type="button" id="profileButton">
+                <img src="icons/profile.svg" alt="">Profile
+            </button>
+
+            <button type="button" id="choicesButton">
+                <img src="icons/choices.svg" alt="">Choices
+            </button>
+
+            <button type="button" id="todoButton">
+                <img src="icons/todo.svg" alt="">ToDo
+            </button>
         </nav>
     </div>
 </body>
